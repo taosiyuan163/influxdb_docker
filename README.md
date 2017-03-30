@@ -12,11 +12,10 @@ docker run  --privileged=true \
             -e VIRTUAL_IP=192.168.190.100 \
             -e REAL_SERVER1=192.168.190.16 \
             -e REAL_SERVER2=192.168.190.17 \
-            -e CHK_IP=www.baidu.com \
             -e CHK_GATEWAY=192.168.190.2 \
             -e EMAIL_FROM=NODE_1.COM \
             -e NODE_TAG=NODE_1 \
             -e EMAIL_ADDRESS=taosiyuan163@163.com \
             -v /opt/influxdb_data:/var/lib/influxdb \
             -v /opt/influxdb_log:/var/log \
-            -d taosiyuan/influxdb:1.0
+            -d taosiyuan/influxdb:1.0
