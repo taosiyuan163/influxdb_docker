@@ -1,5 +1,5 @@
-# 时序数据库influxdb双机热备，包含 HA高可用，脑裂判定，邮件预警等功能
-任务提交脚本：
+# Supports functions such as dual-system hot backup, high availability, split brain detection, and email warning
+submit ：
 docker run  --privileged=true \
             --net=host \
             --name influxdb_activated \
